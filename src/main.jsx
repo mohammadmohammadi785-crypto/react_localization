@@ -6,7 +6,7 @@ import { ThemeProvider } from "next-themes";
 
 createRoot(document.getElementById("root")).render(
   <StrictMode>
-    <ThemeProvider>
+    <ThemeProvider enableSystem attribute="class">
       <App />
     </ThemeProvider>
   </StrictMode>,
