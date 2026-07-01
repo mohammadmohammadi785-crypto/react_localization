@@ -1,12 +1,12 @@
 {
-  "home.hero.logo": "logo",
-  "home.theme.dark": "dark",
-  "home.theme.light": "light",
-  "home.theme.system": "system",
+  "home.hero.logo": "Logo",
+  "home.theme.dark": "Dark",
+  "home.theme.light": "Light",
+  "home.theme.system": "System",
   "home.lang.en": "English",
   "home.lang.fr": "French",
   "home.lang.fa": "Persion",
   "home.lang.pa": "Pashto",
-  "home.hero.title": "hello there, good morning",
+  "home.hero.title": "Hello there, good morning",
   "home.hero.description": "Today is a beautiful day, We are going to learn about something amazing in react.js"
 }
