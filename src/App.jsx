@@ -25,7 +25,7 @@ export default function App() {
     document.documentElement.lang = "fr";
   }
   return (
-    <div className="w-full h-full bg-gray-50 dark:bg-gray-900">
+    <div className="w-full h-full bg-gray-200 dark:bg-black">
       <nav className="w-full py-3 mx-auto px-3 flex border-b dark:border-b-red-500 border-b-green-700 justify-between items-center backdrop-blur-md">
         <h1>{t("home.hero.logo")}</h1>
         <div className="flex gap-2.5">
