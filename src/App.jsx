@@ -1,6 +1,6 @@
 import { useTheme } from "next-themes";
 import React from "react";
-
+import i18n from "./i18n/i18n.js";
 export default function App() {
   const { theme, setTheme } = useTheme();
   return (
