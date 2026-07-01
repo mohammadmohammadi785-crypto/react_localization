@@ -1,36 +1,24 @@
 import i18n from "i18next";
 import { initReactI18next } from "react-i18next";
+import en from "./locale/en.json";
+import fa from "./locale/fa.json";
+import pa from "./locale/pa.json";
+import fr from "./locale/fr.json";
 
 i18n.use(initReactI18next).init({
   lng: "en",
   resources: {
     en: {
-      translation: {
-        "home.hero.title": "hello there, good morning",
-        "home.hero.description":
-          "Today is a beautiful day, We are going to learn about something amazing in react.js",
-      },
+      translation: en,
     },
     fa: {
-      translation: {
-        "home.hero.title": "سلام صبح زیبای تان بخیر",
-        "home.hero.description":
-          "امروز روز زیبایی است و ما قرار است در react.js یک چیز شگفت انگیز را یاد بگیریم",
-      },
+      translation: fa,
     },
     pa: {
-      translation: {
-        "home.hero.title": "سلام سهار مو پخیر",
-        "home.hero.description":
-          "نن یوه ښکلې ورځ ده، موږ به په react.js کې د یو څه حیرانونکي شی په اړه زده کړه وکړو.",
-      },
+      translation: pa,
     },
     fr: {
-      translation: {
-        "home.hero.title": "bonjour, bonne matinée",
-        "home.hero.description":
-          "Aujourd'hui est une belle journée, nous allons apprendre quelque chose d'incroyable dans react.js",
-      },
+      translation: fr,
     },
   },
 });

@@ -1,0 +1,12 @@
+{
+  "home.hero.logo": "logo",
+  "home.theme.dark": "sombre",
+  "home.theme.light": "lumière",
+  "home.theme.system": "systèm",
+  "home.lang.en": "English",
+  "home.lang.fr": "French",
+  "home.lang.fa": "Persion",
+  "home.lang.pa": "Pashto",
+  "home.hero.title": "bonjour, bonne matinée",
+  "home.hero.description": "Aujourd'hui est une belle journée, nous allons apprendre quelque chose d'incroyable dans react.js"
+}
